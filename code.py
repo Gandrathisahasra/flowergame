@@ -116,8 +116,6 @@ while count < len(flower_pot):
             prc_growth += 0
         if being_nice == "no":
             prc_growth += 0
-        else:
-            prc_growth += 50
         if (prc_growth >= 100):
             count += 1
             prc_growth = 0
